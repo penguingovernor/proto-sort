@@ -1,0 +1,5 @@
+syntax="proto3";
+
+message NumberedList {
+    repeated uint64 numbers = 1;
+}
