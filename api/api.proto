@@ -1,5 +1,7 @@
 syntax="proto3";
 
+package pencode;
+
 message NumberedList {
     repeated uint64 numbers = 1;
 }
