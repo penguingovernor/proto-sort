@@ -1,5 +1,9 @@
 # Proto-Sort
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/penguingovernor/proto-sort)](https://goreportcard.com/report/github.com/penguingovernor/proto-sort)
+[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/penguingovernor/proto-sort)
+[![Release](https://img.shields.io/github/release/golang-standards/project-layout.svg?style=flat-square)](https://github.com/penguingovernor/proto-sort/releases/latest)
+
 Proto-Sort is a simple cli tool that was a learning exercise for protocol buffers.
 
 ## Installation
