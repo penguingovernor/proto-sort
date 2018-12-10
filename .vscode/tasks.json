@@ -7,7 +7,7 @@
       "label": "Build Go Protocol Buffer",
       "type": "shell",
       // protoc -I=$SRC_DIR --go_out=$DST_DIR $SRC_DIR/addressbook.proto
-      "command": "protoc -I=${workspaceFolder}/api --go_out=${workspaceFolder}/internal ${workspaceFolder}/api/grpc-test.proto"
+      "command": "protoc -I=${workspaceFolder}/api --go_out=${workspaceFolder}/internal/pencode ${workspaceFolder}/api/grpc-test.proto"
     }
   ]
 }
