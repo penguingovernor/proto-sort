@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/penguingovernor/grpc-test/cmd"
+import "github.com/penguingovernor/proto-sort/cmd"
 
 func main() {
 	cmd.Execute()

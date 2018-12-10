@@ -18,7 +18,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/penguingovernor/grpc-test/internal/pencode"
+	"github.com/penguingovernor/proto-sort/internal/pencode"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )
