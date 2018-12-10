@@ -37,7 +37,7 @@ var addCmd = &cobra.Command{
 		ouputfd, err := os.OpenFile(outputfileString, os.O_CREATE|os.O_RDWR|os.O_APPEND, 0666)
 
 		if err != nil {
-			logrus.Fatal("could not open/create file %s: %v", outputfileString, err)
+			logrus.Fatalf("could not open/create file %s: %v", outputfileString, err)
 		}
 
 		defer ouputfd.Close()
